@@ -8,26 +8,56 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Web Studio</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a class="header-logo link" href="./index.html"
+          >WebStudio</a
+        >
+        <ul class="header-list list">
+          <li class="header">
+            <a class="header-link link" href="">Студія</a>
+          </li>
+          <li class="header">
+            <a class="header-link link" href=""
+              >Портфоліо</a
+            >
+          </li>
+          <li class="header">
+            <a class="header-link link" href="">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header-contacts list">
         <li>
-          <a href="mailto:info@devstudio.com"
+          <a
+            class="header-mail link"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a
+            class="header-phone link"
+            href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
